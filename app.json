@@ -1,0 +1,18 @@
+{
+    "name": "StCovid Bot",
+    "description": "A bot for get covid details.",
+    "repository": "https://github.com/TinuraD/EF-CovidBot",
+    "logo": "https://camo.githubusercontent.com/845aff0b7b0c835775ff03585437dfae92372f08d1c0d129207eeb291a11c70e/68747470733a2f2f74656c656772612e70682f66696c652f3033633364383666303531623565316232306538372e6a7067",
+    "keywords": ["bot", "tele bot", "covid","stBot"],
+    "env": {
+       "BOT_TOKEN": {
+        "description": "Get your Bot token from @Botfather",
+        "value": ""
+      }
+     },
+     "buildpacks": [
+      {
+        "url": "heroku/python"
+      }
+    ]
+  }
