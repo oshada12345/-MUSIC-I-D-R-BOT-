@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-bot = telebot.TeleBot(os.getenv("BOT_TOKEN"))
+bot = telebot.TeleBot("6075754405:AAHphUPv2I2ULg2EGW0XQhI82iUr89fXj4U")
 
 TEMP_FOLDER = ".temp"
 
