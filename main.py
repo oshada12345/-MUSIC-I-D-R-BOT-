@@ -1,12 +1,14 @@
 import os
 import telebot, requests, json
+import getenv
 import shutil
 import telebot
 import requests
 import asyncio
 import telebot, requests, json
 from shazamio import Shazam, serialize_track
-from telebot import typesfrom os import getenv
+from telebot import typesfrom
+import getenv
 
 
 bot = telebot.TeleBot(getenv("BOT_TOKEN"))
