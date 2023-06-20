@@ -1,17 +1,15 @@
 import os
 import telebot, requests, json
-import getenv
 import shutil
 import telebot
 import requests
 import asyncio
 import telebot, requests, json
 from shazamio import Shazam, serialize_track
-from telebot import typesfrom
-import getenv
+from telebot import typesfrom os import getenv
 
 
-bot = telebot.TeleBot(getenv("BOT_TOKEN"))
+bot = telebot.TeleBot(getenv("BOT_TOKEN","6043054287:AAGwCMEOTcY0d7N-s8JtnQ9HUFYOQG-pWzQ"))
 
 TEMP_FOLDER = ".temp"
 
